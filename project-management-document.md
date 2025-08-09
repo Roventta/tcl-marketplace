@@ -7,7 +7,7 @@
 
 一个申请制的在线购物网站。用户需要通过在网站上提交个人商业信息并获得管理员批准以注册其网站帐号。网站拥有最基本的在线购物功能：浏览产品，买家下达订单，网站管理员提示已发货。当以上功能全部实现时，添加产品月度订阅功能。
 
-网站前后段技术栈为react或next.js或clojure，前段state management为pinia，数据库为postgreSQL与PrismaORM， 在线交易api使用stripe。
+网站前后段技术栈为react或next.js或clojure，前端state management为react自含的global state，数据库为postgreSQL与PrismaORM， 在线交易api使用stripe。
 
 ### Stakeholders
 
@@ -46,3 +46,4 @@
 1. 作为一个网站管理员，我想要能够监视某个用户的所有订单。
 1. 作为一个网站管理员，我想要在每次寄出一个订单时，更改订单的state。
 1. 作为公司股东，我想要用户注册申请表仅管理员可见
+1. 作为公司
